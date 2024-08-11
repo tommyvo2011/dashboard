@@ -1,0 +1,20 @@
+.side_bar{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    width:15em;
+    height:100%;
+    background-color: hsl(201, 79%, 46%);
+    border:black solid 4px;
+    font:#fefefe;
+}
+
+.side_bar h3{
+    font-size: 20px;
+}
+
+body{
+    height:100%;
+    margin-top: 0%;
+    margin-left: 0%;
+}
