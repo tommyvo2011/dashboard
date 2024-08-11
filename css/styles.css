@@ -1,20 +1,69 @@
-.side_bar{
-    display:flex;
-    flex-direction:column;
-    align-items: center;
-    width:15em;
-    height:100%;
-    background-color: hsl(201, 79%, 46%);
-    border:black solid 4px;
-    font:#fefefe;
-}
-
-.side_bar h3{
-    font-size: 20px;
-}
-
 body{
+    margin:0;
+    height: 100%;
+    font-size: 5rem;
+}
+
+.container{
+    display:flex;
+    flex-direction: row;
     height:100%;
-    margin-top: 0%;
-    margin-left: 0%;
+}
+
+.header{
+    box-shadow: -2px 2px 0px -2px;
+}
+
+.sidebar{
+    width: 15rem;
+    background-color: #1992d4;
+    color: #ffffff;
+}
+
+.sidebar li{
+    list-style: none;
+}
+
+.dashboard{
+    background-color: #e2e8f0;
+    margin-top: 10px;
+}
+
+.top{
+    width:max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 30px;
+    padding-top: 0.5em;
+    padding-left: 1em;
+    gap: 5rem;
+    
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+    
+}
+
+#searchbar input{
+    background-color: #e2e8f0;
+    border-style: solid;
+    border-radius: 3em;
+    height:2.5em;
+    width:50em;
+    
+}
+
+.notification{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap:1.5rem;
+}
+
+#username{
+    font-size: 20px;
 }
